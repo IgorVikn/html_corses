@@ -1,49 +1,41 @@
-body{
-    background: rgb(48, 3, 38);
-            background-image: url(img/bg_v.png);
-    /*background-color: transparent;*/
-    color:plum;
-    font-family: century gothic;
+body {
+    background-image: url(../img/bg.jpg) ;
+    background-color: rgb(218, 218, 218);
+   background-repeat: repeat-x;
 }
-#fild_main{
-    width: 1000px;
-    position: relative;
+main {
+    width: 960px;
     margin: auto;
 }
-#fild_line{
-    width: 1000px;
-    text-align: center;
-    padding: 20px 0px;
+.img_main{
+    border: 4px; 
+    border-style: double; 
+    border-color: rgb(189, 189, 189);
 }
-hr {
-    border: none;
-    background-color: violet;
-    height: 1px;
-}
-#img_photo{
+.img_facebook{
+    width: 50px;
+    margin: 10px;
     border-radius: 50%;
-    width: 200px;
-    box-shadow: 0 0 15px 2px   violet;
-}
-li{
-    text-align: justify;
 }
 h1{
-    font-family: Philosopher, sans-serif;
-    text-align: center;
+    color: red;
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
 }
-h2{
-    font-family: Philosopher, sans-serif;
-    text-align: left;
+ul li {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 10px;
+    padding-left: 15px;
 }
-a { 
-    text-decoration: none; 
-    color: thistle;
-} 
-a:hover{
-    color: white;
+ul img{
+    width: 150px;
+    margin-right: 400px;
+    float:right;
 }
-p{
-    text-align: justify;
-    text-indent: 50px;
+ol{
+    background-image: url(../img/bg.jpg);
+    margin: 10px;
+    padding: 15px 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
