@@ -1,0 +1,49 @@
+body{
+    background: rgb(48, 3, 38);
+            background-image: url(img/bg_v.png);
+    /*background-color: transparent;*/
+    color:plum;
+    font-family: century gothic;
+}
+#fild_main{
+    width: 1000px;
+    position: relative;
+    margin: auto;
+}
+#fild_line{
+    width: 1000px;
+    text-align: center;
+    padding: 20px 0px;
+}
+hr {
+    border: none;
+    background-color: violet;
+    height: 1px;
+}
+#img_photo{
+    border-radius: 50%;
+    width: 200px;
+    box-shadow: 0 0 15px 2px   violet;
+}
+li{
+    text-align: justify;
+}
+h1{
+    font-family: Philosopher, sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: Philosopher, sans-serif;
+    text-align: left;
+}
+a { 
+    text-decoration: none; 
+    color: thistle;
+} 
+a:hover{
+    color: white;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
