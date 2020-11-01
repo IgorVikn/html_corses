@@ -1,0 +1,18 @@
+ul {
+    list-style: none;
+}
+ul.menu > li {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 10px;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+}
+.sub-hover{
+    position: relative;
+}
+.sub-hover:hover .sub-menu{
+    display: block;
+}
