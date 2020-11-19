@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  max-width: 1450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .heder {
+  padding: 30px 67px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .heder ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.wrapper .heder ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.wrapper .heder a:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.wrapper .heder a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #1B0A42;
+}
+
+.wrapper .heder .sign-in, .wrapper .heder .sign-up {
+  width: 120px;
+  height: 60px;
+  background-color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 700;
+}
+
+.wrapper .heder .sign-in:hover, .wrapper .heder .sign-up:hover {
+  background-color: #33A2E0;
+  color: white;
+}
+
+.wrapper .heder .sign-up {
+  color: white;
+  background-color: #33A2E0;
+}
+
+.wrapper .heder .sign-up:hover {
+  background-color: white;
+  color: #33A2E0;
+}
+
+.wrapper .main {
+  padding: 100px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.wrapper .main div:first-child {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .main div:first-child h1 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 76px;
+  font-family: 'Ramaraja', serif;
+  color: #1B0A42;
+}
+
+.wrapper .main div:first-child p {
+  max-height: 96px;
+  color: #9A9A9A;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 32px;
+  overflow: hidden;
+}
+
+.wrapper .main div:first-child .learn-more {
+  margin-top: 20px;
+  width: 120px;
+  height: 60px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 700;
+  color: white;
+  background-color: #33A2E0;
+}
+
+.wrapper .main div:first-child .learn-more:hover {
+  background-color: white;
+  color: #33A2E0;
+}
+
+.wrapper .main div:last-child {
+  width: 60%;
+  background-image: url("../img/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/*# sourceMappingURL=style.css.map */
