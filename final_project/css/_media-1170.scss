@@ -1,0 +1,29 @@
+@media (max-width: 1170px) {
+    
+    /*--SLIDER CONTEINER--*/
+    .slider {
+        background-image: none;
+
+        .slider-container {
+            background-position: top center;
+                .center form {
+                    margin-top: 3vh;
+                    display: flex;
+                    justify-content:center;
+                    transition: 2s linear;
+                }
+                .center .navigation-points {
+                    margin-top: 2vh;
+                    margin-bottom: 2vh;
+                    transition: 2s linear;
+                }
+        }
+    }
+    /*--SLIDER CONTEINER--*/
+    /*--SUPPORT CONTEINER--*/
+    .support-container {
+        margin: 40px 0;
+        transition: 2s linear;
+    }
+    /*--SUPPORT CONTEINER--*/
+}

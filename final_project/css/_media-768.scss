@@ -1,0 +1,91 @@
+
+@media (max-width: 768px) {
+
+    /*--SLIDER CONTEINER--*/
+    .slider {
+        
+        .slider-container .center .label{
+            margin-top: 3vh;
+        }
+        
+        .slider-container .center .label .inner .season {
+            margin-top: 10px;
+        }
+
+        .slider-container .center .label .inner .sale {
+            margin-top: 10px;
+            font-size: 40px;
+        }
+
+        .slider-container .center .label .inner .up-to {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        
+        .slider-container .center .label .inner .persent {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        .slider-container .center form{
+            margin-top: 2vh;
+        }
+        .slider-container .center .shop-now{
+            width: 30vw;
+            font-size: 20px;
+            height: 40px;
+        }
+        .slider-container .center .navigation-points {
+
+            margin-top: 2vh;
+            margin-bottom: 4vh;
+        }
+    }
+    /*--SLIDER CONTEINER--*/
+    /*--SUPPORT CONTEINER--*/
+    .support-container {
+
+        margin: 20px 0;
+        
+        .triangle-left {
+            display: none;
+        }
+
+        .triangle-right {
+            display: none;
+        }
+
+        .support-left, .support-center, .support-right{
+
+            i {
+                display: none;
+            }
+            div {
+                margin-left: 4vw;
+            }
+        }
+    }
+    /*--SUPPORT CONTEINER--*/
+    /*--MAIN CONTEINER--*/
+    .main-container {
+        
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    /*--MAIN CONTEINER--*/
+    /*--FOOTER CONTEINER--*/
+    .footer {
+
+        padding: 50px;
+        margin-top: 4vh;
+
+        .main-footer-container div > ul {
+
+            list-style: none;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            margin-right: 10vw;
+         }
+    }
+    /*--FOOTER CONTEINER--*/
+}
